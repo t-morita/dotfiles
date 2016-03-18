@@ -725,10 +725,34 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>302</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSColorPanel</key>
+	<string>617 373 224 325 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>486 305 924 485 0 0 1440 877 </string>
+	<string>516 158 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>124 205 745 501 0 0 1440 877 </string>
+	<string>490 124 730 691 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_7A9ECEEC-8F8A-4046-8468-36EA8E85AE70</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -891,11 +915,11 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.10636861622333527</real>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.10636861622333527</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.10636861622333527</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -1298,7 +1322,7 @@
 			<key>Scrollback Lines</key>
 			<integer>1000</integer>
 			<key>Scrollback With Status Bar</key>
-			<false/>
+			<true/>
 			<key>Scrollback in Alternate Screen</key>
 			<true/>
 			<key>Selected Text Color</key>
@@ -1460,9 +1484,9 @@
 		</dict>
 	</array>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>479990048.89440399</real>
+	<real>479999433.06687301</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>479990048.89479297</real>
+	<real>479999433.067801</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1525,7 +1549,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-03-18T10:33:56Z</date>
+	<date>2016-03-18T13:08:43Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1562,6 +1586,10 @@
 	<integer>0</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>2.1.4</string>
 </dict>

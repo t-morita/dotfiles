@@ -1,4 +1,4 @@
-# 必要なツール
+# 利用しているツール
 
 ## tmux
     brew install tmux
@@ -17,6 +17,9 @@
 
 ## tpm
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+## hub
+    brew install hub
 
 ## iterm2
 * https://www.iterm2.com/

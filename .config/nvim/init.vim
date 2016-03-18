@@ -10,9 +10,13 @@ Plug 'fuenor/qfixhowm'
 " Add plugins to &runtimepath
 call plug#end()
 
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
+
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 set guifont=Osaka−等幅:h16
 
 "クリップボードにコピー
@@ -32,3 +36,8 @@ let howm_fileformat      = 'dos'
 nmap <Space> [unite]
 nnoremap <silent> [unite]b :<C-u>Unite<Space>buffer<CR>
 nnoremap <silent> [unite]m :<C-u>Unite<Space>file_mru<CR>
+
+set laststatus=2
+if !has('gui_running')
+  set t_Co=256
+endif
