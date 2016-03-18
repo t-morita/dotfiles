@@ -40,5 +40,5 @@ SAVEHIST=100000
 
 zstyle ":anyframe:selector:" use fzf
 bindkey '^r' anyframe-widget-execute-history
-
+alias vi=nvim
 export PATH=/usr/local/texlive/2015/bin/x86_64-darwin/:$PATH
