@@ -22,7 +22,9 @@
 * https://github.com/neovim/neovim
 
 ### Installation
-    brew install --env=std neovim/neovim/neovim
+	brew install python3
+	pip3 install --upgrade pip
+	pip3 install neovim
 
 ## vim-plug
 * https://github.com/junegunn/vim-plug
