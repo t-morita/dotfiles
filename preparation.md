@@ -2,9 +2,11 @@
 
 ## tmux
     brew install tmux
-    
-## neovim
 
+## tmuxinator
+	gem install tmuxinator
+
+## neovim
     brew install --env=std neovim/neovim/neovim
 
 ## vim-plug

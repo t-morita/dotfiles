@@ -15,13 +15,13 @@ let g:lightline = {
       \ }
 
 syntax enable
-"set background=dark
-"colorscheme solarized
-set guifont=Osaka−等幅:h16
 
 "クリップボードにコピー
 set guioptions+=a
 set clipboard+=unnamed
+
+set tabstop=4
+set shiftwidth=4 "自動インデント用
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 "qfixhowmの設定
@@ -41,3 +41,5 @@ set laststatus=2
 if !has('gui_running')
   set t_Co=256
 endif
+
+

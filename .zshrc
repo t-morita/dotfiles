@@ -5,6 +5,8 @@ zplug "zsh-users/zsh-history-substring-search"
 
 # Support oh-my-zsh plugins and the like
 zplug "plugins/git",   from:oh-my-zsh, if:"which git"
+zplug "plugins/github",   from:oh-my-zsh, if:"which git"
+zplug "plugins/tmuxinator",   from:oh-my-zsh, if:"which git"
 zplug "themes/sorin", from:oh-my-zsh
 zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
 
@@ -34,16 +36,9 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load --verbose
 
-HISTFILE=$HOME/.zsh-history           
-HISTSIZE=100000                      
-SAVEHIST=100000                     
-
 zstyle ":anyframe:selector:" use fzf
 bindkey '^r' anyframe-widget-execute-history
 alias vi=nvim
 eval "$(hub alias -s)"
-
-export TERM=xterm-256color
-export PATH=/usr/local/texlive/2015/bin/x86_64-darwin/:$PATH
 
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux
