@@ -7,6 +7,10 @@ Plug 'Shougo/neoyank.vim'
 Plug 'Shougo/unite.vim'
 Plug 'fuenor/qfixhowm'
 Plug 'lervag/vimtex'
+Plug 'scrooloose/syntastic'
+Plug 'Yggdroot/indentLine'
+Plug 'davidhalter/jedi-vim'
+Plug 'Rykka/riv.vim'
 
 call plug#end()
 
@@ -34,6 +38,7 @@ let howm_fileencoding    = 'utf-8'
 let howm_fileformat      = 'dos'
 
 set laststatus=2
+set foldlevel=100
 if !has('gui_running')
   set t_Co=256
 endif
@@ -52,3 +57,15 @@ nnoremap <silent> [unite]r :<C-u>Unite<Space>-buffer-name=register<Space>registe
 let g:tex_flavor = 'latex'
 nmap <space>li <plug>(vimtex-info)
  
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:indentLine_color_term = 239
+
+autocmd BufNewFile,BufRead *.py nnoremap <C-e> :!python %

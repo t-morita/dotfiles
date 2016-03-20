@@ -45,5 +45,42 @@
 ### Installation
     brew install hub
 
+## Visual Studio Code
+* https://code.visualstudio.com/
+
+### pythonVSCode
+* https://github.com/DonJayamanne/pythonVSCode
+
+## Python Tools
+### pylint
+* https://www.pylint.org/
+
+#### Installation
+    pip install pylint
+
+### pep8
+* https://www.python.org/dev/peps/pep-0008/
+
+#### Installation
+    pip install pep8
+
+### flake8
+* https://pypi.python.org/pypi/flake8
+
+#### Installation
+    pip install flake8
+
+### yapf
+* https://github.com/google/yapf
+
+#### Installation
+    pip install yapf
+
+### nose
+* https://github.com/nose-devs/nose
+
+#### Installation
+    pip install nose
+
 ## iterm2
 * https://www.iterm2.com/
