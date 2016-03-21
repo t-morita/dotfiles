@@ -9,7 +9,6 @@ Plug 'fuenor/qfixhowm'
 Plug 'lervag/vimtex'
 Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
-Plug 'davidhalter/jedi-vim'
 Plug 'Rykka/riv.vim'
 
 call plug#end()
