@@ -2,28 +2,32 @@
 preparation:
 	brew update
 	brew upgrade
-	brew doctor
-	gem install rubygems-update
-	update_rubygems
-	gem update
+	brew install rbenv ruby-build
+	rbenv install 2.3.0
+	rbenv global 2.3.0
+	brew install hub
 	brew install tmux
-	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-	gem install tmuxinator
 	brew install python3
-	pip3 install --upgrade pip
-	pip3 install neovim
+	brew install neovim/neovim/neovim
+	sudo gem install rubygems-update
+	sudo update_rubygems
+	sudo gem update
+	sudo gem install tmuxinator
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+	sudo pip3 install --upgrade pip
+	sudo pip3 install neovim
 	curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	git clone https://github.com/b4b4r07/zplug ~/.zplug
-	brew install hub
-	pip install pylint
-	pip install pep8
-	pip install flake8
-	pip install yapf
-	pip install nose
+	sudo pip install pylint
+	sudo pip install pep8
+	sudo pip install flake8
+	sudo pip install yapf
+	sudo pip install nose
 
 install:
-	ln -s ~/dotfiles/.zshrc ~/.zshrc
-	ln -s ~/dotfiles/.zshenv ~/.zshenv
-	ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
-	ln -s ~/dotfiles/.tmuxinator ~/.tmuxinator
-	ln -s ~/dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
+	ln -fsv ~/dotfiles/.zshrc ~/.zshrc
+	ln -fsv ~/dotfiles/.zshenv ~/.zshenv
+	ln -fsv ~/dotfiles/.tmux.conf ~/.tmux.conf
+	ln -fsv ~/dotfiles/.tmuxinator ~/.tmuxinator
+	ln -fsv ~/dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
+
