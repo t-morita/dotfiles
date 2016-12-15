@@ -23,6 +23,10 @@ preparation:
 	sudo pip install flake8
 	sudo pip install yapf
 	sudo pip install nose
+	brew install ant
+	brew install maven
+	brew install gradle
+	brew install scala
 
 install:
 	ln -fsv ~/dotfiles/.zshrc ~/.zshrc
