@@ -85,3 +85,31 @@
 
 ## iterm2
 * https://www.iterm2.com/
+
+## Build Tools
+
+### Apache Ant
+* http://ant.apache.org/
+
+#### Installation
+	brew install ant
+
+### Apache Maven
+* https://maven.apache.org/	
+
+#### Installation
+	brew install maven
+
+### Gradle
+* http://gradle.org/
+
+#### Installation
+	brew install gradle
+
+## Programming Language
+
+### Scala
+* http://scala-lang.org/
+
+#### Installation
+	brew install scala

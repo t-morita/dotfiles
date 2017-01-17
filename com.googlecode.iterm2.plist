@@ -727,6 +727,7 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+<<<<<<< HEAD
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
@@ -771,6 +772,14 @@
 	<string>389 189 1018 447 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>335 257 650 520 0 0 1280 777 </string>
+=======
+	<key>NSWindow Frame Preferences</key>
+	<string>269 110 924 485 0 0 1440 877 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>761 556 384 129 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 0</key>
+	<string>141 120 665 706 0 0 1440 877 </string>
+>>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
 	<key>NeverWarnAboutShortLivedSessions_7A9ECEEC-8F8A-4046-8468-36EA8E85AE70</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1514,8 +1523,9 @@
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>486479531.30157202</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>479999433.06687301</real>
+	<real>480261989.97636902</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
+<<<<<<< HEAD
 	<real>486180324.588907</real>
 	<key>NoSyncTipsDisabled</key>
 	<true/>
@@ -1531,6 +1541,9 @@
 		<string>0006</string>
 		<string>0007</string>
 	</array>
+=======
+	<real>483577683.33886802</real>
+>>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1595,7 +1608,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
+<<<<<<< HEAD
 	<date>2016-11-19T12:39:03Z</date>
+=======
+	<date>2016-06-01T13:48:34Z</date>
+>>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1630,6 +1647,7 @@
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
 	<string>.AppleSystemUIFont</string>
+<<<<<<< HEAD
 	<key>Window Arrangements</key>
 	<dict>
 		<key>MacBook</key>
@@ -2482,6 +2500,8 @@
 			</dict>
 		</array>
 	</dict>
+=======
+>>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
 	<key>WindowNumber</key>
 	<true/>
 	<key>WindowStyle</key>

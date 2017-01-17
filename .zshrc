@@ -34,4 +34,8 @@ bindkey '^r' anyframe-widget-execute-history
 alias vi=nvim
 eval "$(hub alias -s)"
 
-[[ -z "$TMUX" && ! -z "$PS1" ]] && tmux
+[[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -u
+
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH=${PY_ROOT}/bin:$PATH
+eval "$(pyenv init -)"
