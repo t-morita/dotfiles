@@ -8,7 +8,6 @@ zplug "plugins/tmuxinator",   from:oh-my-zsh, if:"which git"
 zplug "themes/sorin", from:oh-my-zsh
 zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
 
-zplug "b4b4r07/enhancd", of:enhancd.sh
 zplug "mollifier/anyframe"
 zplug "felixr/docker-zsh-completion"
 
