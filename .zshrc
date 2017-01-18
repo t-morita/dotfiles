@@ -1,4 +1,5 @@
-source ~/.zplug/zplug
+source ~/.zplug/init.zsh
+zplug load --verbose
 
 zplug "zsh-users/zsh-history-substring-search"
 
@@ -17,8 +18,8 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "junegunn/fzf-bin", \
     as:command, \
     from:gh-r, \
-    file:fzf, \
-    of:"*darwin*amd64*"
+    rename-to:fzf, \
+    use:"*darwin*amd64*"
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -27,15 +28,14 @@ if ! zplug check --verbose; then
     fi
 fi
 
-zplug load --verbose
 
 zstyle ":anyframe:selector:" use fzf
 bindkey '^r' anyframe-widget-execute-history
-alias vi=nvim
+#alias vi=nvim
 eval "$(hub alias -s)"
 
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -u
 
 export PYENV_ROOT="${HOME}/.pyenv"
-export PATH=${PY_ROOT}/bin:$PATH
+export PATH=${PYENV_ROOT}/bin:$PATH
 eval "$(pyenv init -)"
