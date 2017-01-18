@@ -12,3 +12,4 @@
 source ~/catkin_ws/devel/setup.zsh
 #export ROS_MASTER_URI=http://192.168.10.2:11311
 #export ROS_IP=192.168.10.2
+export EDITOR=/usr/bin/vim
