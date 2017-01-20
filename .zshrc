@@ -1,5 +1,4 @@
 source ~/.zplug/init.zsh
-zplug load --verbose
 
 zplug "zsh-users/zsh-history-substring-search"
 
@@ -27,11 +26,12 @@ if ! zplug check --verbose; then
         echo; zplug install
     fi
 fi
-
+zplug load --verbose
 
 zstyle ":anyframe:selector:" use fzf
+bindkey -e
 bindkey '^r' anyframe-widget-execute-history
-#alias vi=nvim
+alias vi=nvim
 eval "$(hub alias -s)"
 
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -u
