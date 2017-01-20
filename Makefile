@@ -5,6 +5,7 @@ preparation:
 	brew install rbenv ruby-build
 	rbenv install 2.3.0
 	rbenv global 2.3.0
+	brew install pyenv
 	brew install hub
 	brew install tmux
 	brew install python3
