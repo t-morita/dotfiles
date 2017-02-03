@@ -20,6 +20,14 @@ zplug "junegunn/fzf-bin", \
     rename-to:fzf, \
     use:"*darwin*amd64*"
 
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+zplug load --verbose
 
 zstyle ":anyframe:selector:" use fzf
 bindkey -e
@@ -30,15 +38,9 @@ eval `ssh-agent`
 
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -u
 
-export PYENV_ROOT="${HOME}/.pyenv"
-export PATH=${PYENV_ROOT}/bin:$PATH
-eval "$(pyenv init -)"
+#export PYENV_ROOT="${HOME}/.pyenv"
+#export PATH=${PYENV_ROOT}/bin:$PATH
+#eval "$(pyenv init -)"
 
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
 
-zplug load --verbose
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

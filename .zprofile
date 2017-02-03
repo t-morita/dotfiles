@@ -10,6 +10,10 @@
 #export PATH
 
 source ~/catkin_ws/devel/setup.zsh
-#export ROS_MASTER_URI=http://192.168.10.2:11311
-#export ROS_IP=192.168.10.2
+#export ROS_MASTER_URI=http://192.168.10.25:11311
+export ROS_MASTER_URI=http://localhost:11311
+#export ROS_IP=192.168.10.25
+export ROS_IP=127.0.0.1
 export EDITOR=/usr/bin/vim
+export PATH=$PATH:~/bin
+export PYTHONENCODING=utf-8
