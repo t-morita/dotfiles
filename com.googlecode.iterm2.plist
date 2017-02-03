@@ -727,7 +727,6 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-<<<<<<< HEAD
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
@@ -737,7 +736,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdCAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAczAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -765,21 +764,17 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>516 414 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>773 504 400 129 0 0 1440 877 </string>
+	<string>442 486 400 129 0 0 1280 777 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>412 363 620 392 0 0 1440 877 </string>
+	<string>332 288 620 392 0 0 1280 777 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 139 606 456 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>389 189 1018 447 0 0 1280 777 </string>
+	<string>389 281 796 473 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>335 257 650 520 0 0 1280 777 </string>
-=======
-	<key>NSWindow Frame Preferences</key>
-	<string>269 110 924 485 0 0 1440 877 </string>
-	<key>NSWindow Frame SUStatusFrame</key>
-	<string>761 556 384 129 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 0</key>
-	<string>141 120 665 706 0 0 1440 877 </string>
->>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
+	<string>427 300 585 452 0 0 1280 777 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>316 36 801 741 0 0 1280 777 </string>
 	<key>NeverWarnAboutShortLivedSessions_7A9ECEEC-8F8A-4046-8468-36EA8E85AE70</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1512,6 +1507,8 @@
 	</array>
 	<key>NoSyncConfirmBeta</key>
 	<true/>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
@@ -1523,9 +1520,8 @@
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>486479531.30157202</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>480261989.97636902</real>
+	<real>479999433.06687301</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-<<<<<<< HEAD
 	<real>486180324.588907</real>
 	<key>NoSyncTipsDisabled</key>
 	<true/>
@@ -1541,9 +1537,6 @@
 		<string>0006</string>
 		<string>0007</string>
 	</array>
-=======
-	<real>483577683.33886802</real>
->>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1608,11 +1601,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-<<<<<<< HEAD
-	<date>2016-11-19T12:39:03Z</date>
-=======
-	<date>2016-06-01T13:48:34Z</date>
->>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
+	<date>2017-02-01T13:11:50Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1647,7 +1636,6 @@
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
 	<string>.AppleSystemUIFont</string>
-<<<<<<< HEAD
 	<key>Window Arrangements</key>
 	<dict>
 		<key>MacBook</key>
@@ -2500,8 +2488,6 @@
 			</dict>
 		</array>
 	</dict>
-=======
->>>>>>> 3338a3a35d6945a0c4c241ce7ead5d82917a5c93
 	<key>WindowNumber</key>
 	<true/>
 	<key>WindowStyle</key>
@@ -2513,6 +2499,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.12</string>
+	<string>3.0.13</string>
 </dict>
 </plist>
