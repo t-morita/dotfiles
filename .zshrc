@@ -4,6 +4,7 @@ zplug "zsh-users/zsh-history-substring-search"
 
 zplug "plugins/git",   from:oh-my-zsh, if:"which git"
 zplug "plugins/github",   from:oh-my-zsh, if:"which git"
+zplug "plugins/ssh-agent",   from:oh-my-zsh, if:"which git"
 zplug "plugins/tmuxinator",   from:oh-my-zsh, if:"which git"
 zplug "themes/sorin", from:oh-my-zsh
 zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
@@ -33,7 +34,7 @@ bindkey -e
 bindkey '^r' anyframe-widget-execute-history
 alias vi=nvim
 eval "$(hub alias -s)"
-eval `ssh-agent`
+#eval `ssh-agent`
 
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -u
 
