@@ -8,6 +8,9 @@ preparation:
 	brew install pyenv
 	brew install hub
 	brew install tmux
+    brew install xsel
+    brew install xclip
+    brew install reattach-to-user-namespace
 	brew install python3
 	brew install neovim/neovim/neovim
 	sudo gem install rubygems-update

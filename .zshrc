@@ -34,7 +34,6 @@ bindkey -e
 bindkey '^r' anyframe-widget-execute-history
 alias vi=nvim
 eval "$(hub alias -s)"
-#eval `ssh-agent`
 
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -u
 

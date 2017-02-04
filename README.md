@@ -5,6 +5,9 @@
 
 ### Installation
     brew install tmux
+    brew install xsel
+    brew install xclip
+    brew install reattach-to-user-namespace
 
 ## tpm
 * https://github.com/tmux-plugins/tpm
