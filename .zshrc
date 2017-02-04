@@ -27,7 +27,6 @@ if ! zplug check --verbose; then
     fi
 fi
 
-zplug load --verbose
 
 zstyle ":anyframe:selector:" use fzf
 bindkey -e
@@ -42,5 +41,22 @@ eval `ssh-agent`
 #export PATH=${PYENV_ROOT}/bin:$PATH
 #eval "$(pyenv init -)"
 
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export HISTFILE=${HOME}/.zsh_history
+export HISTSIZE=1000
+export SAVEHIST=100000
+setopt hist_ignore_dups
+setopt hist_ignore_all_dups
+setopt hist_ignore_space
+setopt EXTENDED_HISTORY
+setopt share_history
+setopt hist_verify
+setopt hist_reduce_blanks  
+setopt hist_save_no_dups
+setopt hist_no_store
+setopt hist_expand
+setopt inc_append_history
+
+zplug load
+
