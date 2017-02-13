@@ -17,3 +17,4 @@ export ROS_IP=127.0.0.1
 export EDITOR=/usr/bin/vim
 export PATH=$PATH:~/bin
 export PYTHONENCODING=utf-8
+export PYTHONPATH=~/lib/pynaoqi-python2.7-2.1.4.13-linux64:$PYTHONPATH
