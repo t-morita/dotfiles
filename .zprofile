@@ -9,7 +9,9 @@
 #PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 #export PATH
 
-source ~/catkin_ws/devel/setup.zsh
+if [ -e ~/catkin_ws/devel/setup.zsh ]; then
+   source ~/catkin_ws/devel/setup.zsh
+fi
 #export ROS_MASTER_URI=http://192.168.10.25:11311
 export ROS_MASTER_URI=http://localhost:11311
 #export ROS_IP=192.168.10.25
