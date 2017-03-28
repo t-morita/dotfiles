@@ -58,5 +58,14 @@ setopt hist_no_store
 setopt hist_expand
 setopt inc_append_history
 
+case "${OSTYPE}" in
+freebsd*|darwin*)
+  alias ls="ls -GF"
+  ;;
+linux*)
+  alias ls="ls -F --color"
+  ;;
+esac
+
 zplug load
 
