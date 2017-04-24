@@ -1,21 +1,5 @@
 # Tools
 
-## neovim
-* https://github.com/neovim/neovim
-
-### Installation
-	brew install neovim/neovim/neovim
-	brew install python3
-	pip3 install --upgrade pip
-	pip3 install neovim
-
-## vim-plug
-* https://github.com/junegunn/vim-plug
-
-### Installation
-    curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
 ## zplug    
 * https://github.com/b4b4r07/zplug
 
@@ -30,54 +14,6 @@
 
 ## Visual Studio Code
 * https://code.visualstudio.com/
-
-### pythonVSCode
-* https://github.com/DonJayamanne/pythonVSCode
-
-## Python Tools
-### pylint
-* https://www.pylint.org/
-
-#### Installation
-    pip install pylint
-
-### pep8
-* https://www.python.org/dev/peps/pep-0008/
-
-#### Installation
-    pip install pep8
-
-### flake8
-* https://pypi.python.org/pypi/flake8
-
-#### Installation
-    pip install flake8
-
-### yapf
-* https://github.com/google/yapf
-
-#### Installation
-    pip install yapf
-
-### nose
-* https://github.com/nose-devs/nose
-
-#### Installation
-    pip install nose
-
-## Build Tools
-
-### Apache Ant
-* http://ant.apache.org/
-
-#### Installation
-	brew install ant
-
-### Apache Maven
-* https://maven.apache.org/	
-
-#### Installation
-	brew install maven
 
 ### Gradle
 * http://gradle.org/

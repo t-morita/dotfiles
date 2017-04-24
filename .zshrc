@@ -31,7 +31,6 @@ fi
 zstyle ":anyframe:selector:" use fzf
 bindkey -e
 bindkey '^r' anyframe-widget-execute-history
-alias vi=nvim
 eval "$(hub alias -s)"
 
 #export PYENV_ROOT="${HOME}/.pyenv"
