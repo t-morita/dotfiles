@@ -1,7 +1,5 @@
 source ~/.zplug/init.zsh
 
-zplug "zsh-users/zsh-history-substring-search"
-
 zplug "plugins/git",   from:oh-my-zsh, if:"which git"
 zplug "plugins/github",   from:oh-my-zsh, if:"which git"
 zplug "plugins/ssh-agent",   from:oh-my-zsh, if:"which git"
@@ -27,15 +25,10 @@ if ! zplug check --verbose; then
     fi
 fi
 
-
 zstyle ":anyframe:selector:" use fzf
 bindkey -e
 bindkey '^r' anyframe-widget-execute-history
 eval "$(hub alias -s)"
-
-#export PYENV_ROOT="${HOME}/.pyenv"
-#export PATH=${PYENV_ROOT}/bin:$PATH
-#eval "$(pyenv init -)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
