@@ -1,26 +1,5 @@
 # Tools
 
-## tmux
-* https://tmux.github.io/
-
-### Installation
-    brew install tmux
-    brew install xsel
-    brew install xclip
-    brew install reattach-to-user-namespace
-
-## tpm
-* https://github.com/tmux-plugins/tpm
-
-### Installation
-    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
-## tmuxinator
-* https://github.com/tmuxinator/tmuxinator
-
-### Installation
-	gem install tmuxinator
-
 ## neovim
 * https://github.com/neovim/neovim
 
@@ -85,9 +64,6 @@
 
 #### Installation
     pip install nose
-
-## iterm2
-* https://www.iterm2.com/
 
 ## Build Tools
 
