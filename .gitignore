@@ -1,2 +1,5 @@
+.config/hub
 .config/fish/fishd.*
+.config/configstore
+.config/yarn
 .tmux/
