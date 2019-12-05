@@ -3,5 +3,20 @@
 ## fish
 * https://fishshell.com/
 
-### Installation
-	brew install fish
+```Shell
+$ brew install fish
+```
+
+## tmux
+* https://github.com/tmux/tmux
+
+```Shell
+$ brew install tmux
+```
+
+## tpm
+* https://github.com/tmux-plugins/tpm
+
+```Shell
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```

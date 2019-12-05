@@ -4,3 +4,4 @@
 .config/configstore
 .config/yarn
 .tmux/
+*.log

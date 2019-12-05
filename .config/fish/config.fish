@@ -5,7 +5,7 @@ set PYTHONENCODING utf-8
 set JAVA8_HOME /Library/Java/JavaVirtualMachines/java8_latest_home/
 set JAVA11_HOME /Library/Java/JavaVirtualMachines/java11_latest_home/
 set JAVA_HOME $JAVA11_HOME
-set PATH ~/.conscript/bin $JAVA_HOME $PATH 
+set PATH ~/.conscript/bin ~/opt/anaconda3/bin $JAVA_HOME $PATH 
 alias git=hub
 if status is-interactive
 and not set -q TMUX
